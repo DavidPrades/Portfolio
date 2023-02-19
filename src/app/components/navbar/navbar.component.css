@@ -1,4 +1,11 @@
 .navbar {
     border-radius: 15px !important;
-   margin-top: 25px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.75);
+}
+
+.navbar li a:hover{
+    background: linear-gradient(to right, #00e8ff, #fa0098);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
