@@ -8,6 +8,7 @@ import { FooterComponentComponent } from './components/footer-component/footer-c
 import { ExperienceComponentComponent } from './components/experience-component/experience-component.component';
 import { InicioComponentComponent } from './components/inicio-component/inicio-component.component';
 import { SectionComponentComponent } from './components/section-component/section-component.component';
+import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
  
 
 
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'inicio', pathMatch: 'full' },
   { path: 'inicio', component: InicioComponentComponent },
   { path: 'experiencia', component: ExperienceComponentComponent },
+  { path: 'sobre-mi', component: SobreMiComponent },
 ];
 
 
@@ -26,7 +28,8 @@ const routes: Routes = [
     FooterComponentComponent,
     ExperienceComponentComponent,
     InicioComponentComponent,
-    SectionComponentComponent
+    SectionComponentComponent,
+    SobreMiComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(routes)

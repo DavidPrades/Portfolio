@@ -1,19 +1,17 @@
 @media only screen and (min-width: 1200px) {
    .container{
-      margin-top: 10% !important;
+      margin-top: 8% !important;
    }
 }
 @media only screen and (max-width: 1200px) {
    .container{
       margin-top: 12% !important;
-      color: blue;
    }
 }
 
 @media only screen and (max-width: 1000px) {
    .container{
       margin-top: 14% !important;
-      color: red;
    }
 }
 
