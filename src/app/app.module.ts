@@ -1,10 +1,21 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LandingPageComponentComponent } from './components/landing-page-component/landing-page-component.component';
 import { NavbarComponent } from './components/navbar-component/navbar.component';
 import { FooterComponentComponent } from './components/footer-component/footer-component.component';
+import { ExperienceComponentComponent } from './components/experience-component/experience-component.component';
+import { InicioComponentComponent } from './components/inicio-component/inicio-component.component';
+import { SectionComponentComponent } from './components/section-component/section-component.component';
+ 
+
+
+const routes: Routes = [
+  { path: '', redirectTo: 'inicio', pathMatch: 'full' },
+  { path: 'inicio', component: InicioComponentComponent },
+  { path: 'experiencia', component: ExperienceComponentComponent },
+];
 
 
 @NgModule({
@@ -12,10 +23,13 @@ import { FooterComponentComponent } from './components/footer-component/footer-c
     AppComponent,
     LandingPageComponentComponent,
     NavbarComponent,
-    FooterComponentComponent
+    FooterComponentComponent,
+    ExperienceComponentComponent,
+    InicioComponentComponent,
+    SectionComponentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
