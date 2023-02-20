@@ -1,5 +1,5 @@
-<div class="container fixed-top mb-5 mt-4">
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark py-2 ">
+<div class="container mt-4 sticky-top">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark py-2 sticky ">
   <div class="container-fluid">
     <a class="navbar-brand" href="#" >
       <img src="../../../assets/code.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
@@ -7,16 +7,16 @@
     <button class="navbar-toggler"type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse" id="navbarNav" #navbarNav>
       <ul class="navbar-nav mx-auto">
         <li class="nav-item " routerLinkActive="active">
-          <a class="nav-link"  routerLink="/inicio" >INICIO</a>
+          <a class="nav-link"  routerLink="/inicio" (click)="cerrarMenu()">INICIO</a>
         </li>
         <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link"  routerLink="/sobre-mi"> SOBRE MÍ </a>
+          <a class="nav-link"  routerLink="/experiencia" (click)="cerrarMenu()">EXPERIENCIA  </a>
         </li>
         <li class="nav-item" routerLinkActive="active">
-          <a  class="nav-link" routerLink="/experiencia">EXPERIENCIA</a>
+          <a  class="nav-link" routerLink="/about" (click)="cerrarMenu()">ABOUT</a>
         </li>
       </ul>
       <ul class="navbar-nav">

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  @ViewChild('navbarNav') navbar: any;
+
+  cerrarMenu(): void {
+    this.navbar.nativeElement.classList.remove('show');
+  }
 }

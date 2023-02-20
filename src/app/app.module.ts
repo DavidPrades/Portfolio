@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'inicio', pathMatch: 'full' },
   { path: 'inicio', component: InicioComponentComponent },
   { path: 'experiencia', component: ExperienceComponentComponent },
-  { path: 'sobre-mi', component: SobreMiComponent },
+  { path: 'about', component: SobreMiComponent },
 ];
 
 
