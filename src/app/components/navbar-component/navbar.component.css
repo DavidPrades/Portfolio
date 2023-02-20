@@ -18,7 +18,6 @@
    color: #f8f9fa;
   }
   
-#prueba{
-    border: 1px solid red;
-    margin-top: 105px;
+section{
+    margin-top: 115px !important;
 }
