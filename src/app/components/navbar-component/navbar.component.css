@@ -17,3 +17,8 @@
 .navbar-nav .nav-item.active .nav-link {
    color: #f8f9fa;
   }
+  
+#prueba{
+    border: 1px solid red;
+    margin-top: 105px;
+}
