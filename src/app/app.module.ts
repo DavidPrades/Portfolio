@@ -7,7 +7,7 @@ import { NavbarComponent } from './components/navbar-component/navbar.component'
 import { FooterComponentComponent } from './components/footer-component/footer-component.component';
 import { WorkspaceComponent } from './components/workspace-component/workspace-component.component';
 import { InicioComponentComponent } from './components/inicio-component/inicio-component.component';
-import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
+import { SobreMiComponentComponent } from './components/sobre-mi-component/sobre-mi-component.component';
  
 
 
@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'inicio', pathMatch: 'full' },
   { path: 'inicio', component: InicioComponentComponent },
   { path: 'workspace', component: WorkspaceComponent },
-  { path: 'about', component: SobreMiComponent },
+  { path: 'about', component: SobreMiComponentComponent },
 ];
 
 
@@ -27,7 +27,7 @@ const routes: Routes = [
     FooterComponentComponent,
     WorkspaceComponent,
     InicioComponentComponent,
-    SobreMiComponent
+    SobreMiComponentComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(routes)
