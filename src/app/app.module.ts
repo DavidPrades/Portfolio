@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { LandingPageComponentComponent } from './components/landing-page-component/landing-page-component.component';
 import { NavbarComponent } from './components/navbar-component/navbar.component';
 import { FooterComponentComponent } from './components/footer-component/footer-component.component';
-import { ExperienceComponentComponent } from './components/experience-component/experience-component.component';
+import { WorkspaceComponent } from './components/workspace-component/workspace-component.component';
 import { InicioComponentComponent } from './components/inicio-component/inicio-component.component';
 import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
  
@@ -14,7 +14,7 @@ import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
 const routes: Routes = [
   { path: '', redirectTo: 'inicio', pathMatch: 'full' },
   { path: 'inicio', component: InicioComponentComponent },
-  { path: 'experiencia', component: ExperienceComponentComponent },
+  { path: 'workspace', component: WorkspaceComponent },
   { path: 'about', component: SobreMiComponent },
 ];
 
@@ -25,7 +25,7 @@ const routes: Routes = [
     LandingPageComponentComponent,
     NavbarComponent,
     FooterComponentComponent,
-    ExperienceComponentComponent,
+    WorkspaceComponent,
     InicioComponentComponent,
     SobreMiComponent
   ],

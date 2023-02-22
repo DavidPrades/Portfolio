@@ -1,5 +1,5 @@
-<div class="container mt-4 sticky-top">
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark py-2 sticky ">
+<div class="container fixed-top " id="principal">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark py-2">
   <div class="container-fluid">
     <a class="navbar-brand" href="#" >
       <img src="../../../assets/code.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
@@ -13,10 +13,13 @@
           <a class="nav-link"  routerLink="/inicio" (click)="cerrarMenu()">INICIO</a>
         </li>
         <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link"  routerLink="/experiencia" (click)="cerrarMenu()">EXPERIENCIA  </a>
+          <a class="nav-link"  routerLink="/workspace" (click)="cerrarMenu()">WORKSPACE </a>
         </li>
         <li class="nav-item" routerLinkActive="active">
           <a  class="nav-link" routerLink="/about" (click)="cerrarMenu()">ABOUT</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a  class="nav-link" routerLink="/" (click)="cerrarMenu()">SET-UP</a>
         </li>
       </ul>
       <ul class="navbar-nav">
@@ -35,7 +38,7 @@
   </div>
 </nav>
 </div>
-<section class="container">
+<section class="container ">
   <router-outlet></router-outlet>   
 </section>
  
