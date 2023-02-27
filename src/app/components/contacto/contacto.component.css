@@ -1,25 +1,13 @@
-h2 {
+h2{
     font-weight: 900;
     transform: translatey(100%);
     animation: slide-in 0.5s forwards;
 }
-
-.subtitulo {
-    margin-top: 1em;
-    text-decoration: underline;
-    font-weight: 700;
+.info{
     transform: translatey(100%);
     animation: slide-in 0.5s forwards;
+    margin-bottom: 3em;
 }
-
-.cards {
-    border-radius: 15px !important;
-    background-color: #282828 !important;
-    box-shadow: 0.5em 0.5em 2em #1b1b1b, -0.5em -0.5em 2em #353535, inset 0 0 0 #1b1b1b, inset 0 0 0 #353535;
-    padding: 2em;
-    margin-bottom: 2em;
-}
-
 .card {
     border-radius: 15px !important;
     background-color: #282828 !important;
@@ -29,28 +17,31 @@ h2 {
     margin-bottom: 2em;
     margin-left: 2em;
     margin-right: 2em;
+    color: white;
+    transform: translatey(100%);
+    animation: slide-in 0.5s forwards;
+    
 }
-
-.sobreMi {
+span{
+    color: red;
+}
+.submit{
+    color: white;
+    background-color: #353535;
+    border: 1px solid #282828;
+    border-radius: 1em !important;
+    box-shadow: 0.5em 0.5em 2em #1b1b1b, -0.5em -0.5em 2em #353535, inset 0 0 0 #1b1b1b, inset 0 0 0 #353535;
+    padding: 1em;
     margin-top: 1em;
-    transform: translatey(100%);
-    animation: slide-in 0.5s forwards;
-    text-align: justify;
+    font-weight: 900;
 }
-
-.tecnologias {
-    text-align: center;
-    transform: translatey(100%);
-    animation: slide-in 0.5s forwards;
+.submit:hover{
+    background: linear-gradient(to right, #00e8ff, #fa0098) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    
 }
-
-img {
-    margin-top: 1em;
-    margin-left: 1em;
-    transform: translatey(100%);
-    animation: slide-in 0.5s forwards;
-}
-
 @keyframes slide-in {
     100% {
         opacity: 1;

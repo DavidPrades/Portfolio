@@ -1,0 +1,21 @@
+<div class="card">
+    <h2>Contacto</h2>
+
+    <p class="info">Si tienes cualquier pregunta o quieres ponerte en contacto conmigo puedes rellenar el siguiente
+        formulario.</p>
+    <form action="https://formspree.io/f/mqkobaqk" method="POST">
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre <span>*</span></label>
+            <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo <span>*</span></label>
+            <input type="text" class="form-control" id="correo" type="email" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="comentarios" class="form-label">Comentarios <span>*</span></label>
+            <textarea class="form-control" id="comentarios" name="message" rows="4" required></textarea>
+        </div>
+        <button class="submit" type="submit">Enviar correo</button>
+    </form>
+</div>

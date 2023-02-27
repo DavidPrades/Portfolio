@@ -8,6 +8,7 @@ import { FooterComponentComponent } from './components/footer-component/footer-c
 import { WorkspaceComponent } from './components/workspace-component/workspace-component.component';
 import { InicioComponentComponent } from './components/inicio-component/inicio-component.component';
 import { SobreMiComponentComponent } from './components/sobre-mi-component/sobre-mi-component.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
  
 
 
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'inicio', component: InicioComponentComponent },
   { path: 'workspace', component: WorkspaceComponent },
   { path: 'about', component: SobreMiComponentComponent },
+  { path: 'contacto', component: ContactoComponent}
 ];
 
 
@@ -27,7 +29,8 @@ const routes: Routes = [
     FooterComponentComponent,
     WorkspaceComponent,
     InicioComponentComponent,
-    SobreMiComponentComponent
+    SobreMiComponentComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(routes)
