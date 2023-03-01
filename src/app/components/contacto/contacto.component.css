@@ -1,13 +1,22 @@
-h2{
+h2 {
     font-weight: 900;
-    transform: translatey(100%);
-    animation: slide-in 0.5s forwards;
+    margin-bottom: 0.5em;
 }
-.info{
-    transform: translatey(100%);
-    animation: slide-in 0.5s forwards;
+
+.info {
     margin-bottom: 3em;
+
 }
+
+h2,
+.info,
+input,
+label,
+textarea {
+    transform: translateY(100%);
+    animation: slide-in 0.5s forwards;
+}
+
 .card {
     border-radius: 15px !important;
     background-color: #282828 !important;
@@ -18,14 +27,15 @@ h2{
     margin-left: 2em;
     margin-right: 2em;
     color: white;
-    transform: translatey(100%);
-    animation: slide-in 0.5s forwards;
-    
+
+
 }
-span{
+
+span {
     color: red;
 }
-.submit{
+
+.submit {
     color: white;
     background-color: #353535;
     border: 1px solid #282828;
@@ -35,16 +45,18 @@ span{
     margin-top: 1em;
     font-weight: 900;
 }
-.submit:hover{
+
+.submit:hover {
     background: linear-gradient(to right, #00e8ff, #fa0098) !important;
     background-clip: text !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
-    
+
 }
+
 @keyframes slide-in {
     100% {
         opacity: 1;
-        transform: translatey(0);
+        transform: translateX(0);
     }
 }

@@ -1,9 +1,11 @@
 .fixed-top {
     background: rgb(45, 45, 45);
 }
-.logo{
+
+.logo {
     margin-left: 1em;
 }
+
 .navbar {
     border-radius: 15px !important;
     font-weight: bolder;
@@ -30,6 +32,7 @@
 .section {
     margin-top: 150px !important;
 }
-.github{
+
+.github {
     margin-right: 0.5em;
 }
