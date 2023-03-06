@@ -11,21 +11,19 @@ import { getAnalytics } from "firebase/analytics";
 export class AppComponent implements OnInit {
   ngOnInit(): void {
     const firebaseConfig = {
-      apiKey: "AIzaSyC1DDTIU4Eca0YngODPv9QEZTuXbW4Dxzk",
-      authDomain: "portfolio-e421f.firebaseapp.com",
-      projectId: "portfolio-e421f",
-      storageBucket: "portfolio-e421f.appspot.com",
-      messagingSenderId: "681485638837",
-      appId: "1:681485638837:web:64ebb31b7cab496a90f2fc",
-      measurementId: "G-YLRTH10PLJ"
+      apiKey: "AIzaSyCdSNwfBOjrD8ANTcbHS6ahx96Uk3nUQrM",
+      authDomain: "portfolio-44eba.firebaseapp.com",
+      projectId: "portfolio-44eba",
+      storageBucket: "portfolio-44eba.appspot.com",
+      messagingSenderId: "366226355036",
+      appId: "1:366226355036:web:d98535acf16f219d954799"
     };
 
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
   }
   title = 'PortfolioDavidPrades';
-   
+
 }
 
 

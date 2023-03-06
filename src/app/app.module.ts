@@ -10,8 +10,6 @@ import { InicioComponentComponent } from './components/inicio-component/inicio-c
 import { SobreMiComponentComponent } from './components/sobre-mi-component/sobre-mi-component.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
  
-
-
 const routes: Routes = [
   { path: '', redirectTo: 'inicio', pathMatch: 'full' },
   { path: 'inicio', component: InicioComponentComponent },
@@ -30,10 +28,11 @@ const routes: Routes = [
     WorkspaceComponent,
     InicioComponentComponent,
     SobreMiComponentComponent,
-    ContactoComponent
+    ContactoComponent,
+   
   ],
   imports: [
-    BrowserModule, RouterModule.forRoot(routes)
+    BrowserModule, RouterModule.forRoot(routes),
   ],
   providers: [],
   bootstrap: [AppComponent]

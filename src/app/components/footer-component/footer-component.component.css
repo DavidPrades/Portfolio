@@ -5,10 +5,14 @@
     margin-bottom: 50px !important;
     text-align: center;
     font-weight: 900 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.contacto {
-    margin: 0;
+.footer-middle {
+    flex-grow: 1;
+    text-align: center;
 }
 
 .correo {
@@ -22,5 +26,21 @@
     background-clip: text !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
+}
 
+.footer-left {
+    text-align: start;
+    margin-left: 2em;
+}
+
+.qr-icon {
+    cursor: pointer;
+}
+
+.modal-content {
+    background-color: #1b1b1b !important;
+}
+
+.modal-body{
+    padding: 4em !important;
 }

@@ -1,3 +1,24 @@
+<div class="modal fade text-center" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered text-center">
+    <div class="modal-content text-center">
+      <div class="modal-header text-center">
+        <h5 class="modal-title " id="exampleModalLabel">Escanéame si quieres pasarte al móvil!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-e421f.appspot.com/o/qrcode-generado%20(1).png?alt=media" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <footer class="footer bg-dark mt-3 mb-4 py-4">
-  <a class="correo" routerLink="/contacto">CONTACTO</a>
+  <div class="footer-left">
+    <i class="fa-solid fa-qrcode qr-icon  fa-2x" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+  </div>
+  <div class="footer-middle">
+    <a class="correo" routerLink="/contacto">CONTACTO</a>
+  </div>
 </footer>
